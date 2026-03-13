@@ -1,16 +1,40 @@
-# React + Vite
+# Rayana Jaka Surya - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository for my personal portfolio website! This project showcases my journey as a web developer and IT student, highlighting my technical skills, academic background, and the projects I've built.
 
-Currently, two official plugins are available:
+## 👨‍💻 About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Hi, I'm **Rayana Jaka Surya**, a web developer and second-semester college student dedicated to crafting engaging digital experiences. I specialize in WordPress, PHP, JavaScript, and CSS. Alongside building websites, I have a strong foundation in Java, database architecture, and operating systems. I am always looking forward to the next coding challenge and eager to turn complex ideas into seamless user experiences.
 
-## React Compiler
+## 🛠️ Tech Stack & Skills
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Here are the primary technologies and concepts I work with:
 
-## Expanding the ESLint configuration
+**Web Development:**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- HTML5 & CSS3
+- JavaScript
+- PHP
+- WordPress (Theme/Plugin customization & development)
+
+**Software Engineering & Fundamentals:**
+
+- Java Programming
+- Database Architecture & Design (ERD, CDM)
+- Operating Systems (Windows, macOS, Linux)
+
+## 🚀 Features
+
+- **Responsive Design:** Optimized for seamless viewing across desktops, tablets, and mobile devices.
+- **About Section:** A brief introduction to my background and academic journey.
+- **Projects Gallery:** A showcase of my recent web development and coding projects.
+- **Contact Form:** An easy way to get in touch for collaborations or opportunities.
+
+## 💻 Running the Project Locally
+
+To view this project on your local machine, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/yourusername/your-portfolio-repo.git](https://github.com/yourusername/your-portfolio-repo.git)
+   ```
