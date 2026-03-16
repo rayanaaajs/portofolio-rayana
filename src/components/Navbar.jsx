@@ -250,7 +250,7 @@ export default function Navbar() {
             style={{
               maxWidth: "100%",
               width: "100%",
-              transition: "border-radius 0.7s cubic-bezier(0.4,0,0.2,1)",
+              transition: "border-radius 0.5s cubic-bezier(0.4,0,0.2,1)",
             }}
           >
             <div className="flex flex-col w-full">
