@@ -70,7 +70,6 @@ const GlassSurface = ({
     feImageRef.current?.setAttribute("href", generateDisplacementMap());
   };
 
-  // 1. useEffect untuk Dependency Array properti warna/kaca
   useEffect(() => {
     updateDisplacementMap();
     [
@@ -107,31 +106,19 @@ const GlassSurface = ({
     mixBlendMode,
   ]);
 
-  // 2. useEffect BARU: Menggunakan jeda (debounce) agar tidak lag di mobile
   useEffect(() => {
     if (!containerRef.current) return;
-    
-    let timeoutId;
-    
     const resizeObserver = new ResizeObserver(() => {
-      clearTimeout(timeoutId);
-      timeoutId = setTimeout(updateDisplacementMap, 100); 
+      setTimeout(updateDisplacementMap, 0);
     });
-    
     resizeObserver.observe(containerRef.current);
-    
-    return () => {
-      resizeObserver.disconnect();
-      clearTimeout(timeoutId); 
-    };
+    return () => resizeObserver.disconnect();
   }, []);
 
-  // 3. useEffect untuk initial render
   useEffect(() => {
     setTimeout(updateDisplacementMap, 0);
   }, [width, height]);
 
-  // 4. useEffect untuk mendeteksi dukungan browser
   useEffect(() => {
     setSvgSupported(supportsSVGFilters());
   }, []);

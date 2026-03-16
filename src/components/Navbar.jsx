@@ -191,8 +191,7 @@ export default function Navbar() {
           animate={{ height: "auto", opacity: 1 }}
           exit={{ height: 0, opacity: 0 }}
           transition={{
-            // FIX: Ganti 'spring' yang berat menjadi 'ease' yang sangat ringan
-            height: { duration: 0.35, ease: "easeInOut" },
+            height: { ...springTransition, stiffness: 250 },
             opacity: { duration: 0.2 },
           }}
           className="md:hidden overflow-hidden w-full"
