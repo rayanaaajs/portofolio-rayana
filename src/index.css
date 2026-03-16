@@ -22,6 +22,7 @@
 /* ===== Base Styles ===== */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -178,27 +179,6 @@ body {
 
 .animate-pulse-glow {
   animation: pulseGlow 3s ease-in-out infinite;
-}
-
-/* ===== Liquid Glass / Dynamic Island ===== */
-.liquid-glass {
-  background: rgba(15, 23, 42, 0.6);
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow:
-    0 8px 32px rgba(0, 0, 0, 0.3),
-    0 0 0 0.5px rgba(255, 255, 255, 0.05),
-    inset 0 1px 0 rgba(255, 255, 255, 0.06);
-  transition: box-shadow 0.3s ease;
-}
-
-.liquid-glass:hover {
-  box-shadow:
-    0 8px 40px rgba(0, 0, 0, 0.35),
-    0 0 20px rgba(20, 184, 166, 0.08),
-    0 0 0 0.5px rgba(255, 255, 255, 0.08),
-    inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
 /* ===== Noise Texture Overlay ===== */
